@@ -17,9 +17,12 @@ class member_details(Family):
         print("Family members: ")
         for m in self.member_list:
             print(m)
+     
+    def speak(self, sound="Arf"):
+        return f"{self.name} says {sound}"
 
 # Main starts here
-family1 = member_details("Pandya", 4, "Karamsad")
+family1 = member_details("Pandya", 4, "Location 1")
 
 # members1 = family1(Family)
 
@@ -30,3 +33,7 @@ family1.addMember("Member Four", 26, "Coding")
 
 print(family1.member())
 print(family1.family_name)
+
+print(family1.family_located)
+family1.family_located = "Location 2"
+print(family1.family_located)
