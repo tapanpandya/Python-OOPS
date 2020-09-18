@@ -14,4 +14,5 @@
   >class member_details(Family):
 - Child instance example
   > family1 = member_details("Family Name", 4, "Location One")
+
 **Note:** Put another way, a class is like a form or questionnaire. An instance is like a form that has been filled out with information. Just like many people can fill out the same form with their own unique information, many instances can be created from a single class.
