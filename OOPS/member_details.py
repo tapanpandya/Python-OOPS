@@ -23,10 +23,10 @@ family1 = member_details("Pandya", 4, "Karamsad")
 
 # members1 = family1(Family)
 
-family1.addMember("Hiteshbhai", 58, "Helping")
-family1.addMember("Alkaben", 50, "Cooking")
-family1.addMember("Hinal", 28, "Eating")
-family1.addMember("Tapan", 26, "Coding")
+family1.addMember("Member One", 58, "Helping")
+family1.addMember("Member Two", 50, "Cooking")
+family1.addMember("Member Three", 28, "Eating")
+family1.addMember("Member Four", 26, "Coding")
 
 print(family1.member())
 print(family1.family_name)
